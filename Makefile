@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Iinclude -Wall -Wextra -g
 
-SRCS = src/main.c src/bisection.c
+SRCS = src/main.c src/bisection.c src/array_utils.c
 OBJS = $(SRCS:.c=.o)
 TARGET = home_task_4
 
